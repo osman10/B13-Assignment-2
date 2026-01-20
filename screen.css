@@ -1,0 +1,47 @@
+@media screen and (max-width: 576px) {
+.hero-content .button-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+} 
+.hero-content .button-group button{
+  width: 100%;
+}
+
+}
+@media screen and (max-width: 922px) {
+.section {
+  padding: 0 10px;
+} 
+
+.navmenu {
+  display: none;
+  /* justify-content: space-between;
+  align-items: center;
+  gap: 2rem; */
+}
+.navmenu ul {
+  display: flex;
+  flex-direction: row;
+  /* gap: 2rem; */
+}
+.navmenu ul li a {
+
+}
+
+
+.header .subscribe {
+display: none;
+}
+.hamburger button{
+  display: block;
+}
+.hamburger button:hover{
+    color: blueviolet;
+}
+
+}

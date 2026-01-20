@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #1a0b2e;
+}
+.section {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3.75rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+header {
+  border-bottom: 0.5px solid #412567;
+}
+.header {
+  height: 5.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo a {
+  text-decoration: none;
+}
+.header .logo img {
+  width: 13.688rem;
+  height: auto;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.navmenu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.navmenu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.navmenu ul li a:hover {
+  color: #ff6ea1;
+}
+.header .subscribe {
+  background: #9100f8;
+  background: linear-gradient(
+    45deg,
+    rgba(145, 0, 248, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(247, 233, 63, 1) 100%
+  );
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 9999px; /* fully rounded */
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+.header .subscribe:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  transform: scale(1.05);
+}
+.hamburger button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.hero {
+  background: url("./images/hero-bg.png") no-repeat center center;
+  /* background-size: cover; */
+  background-position: center center;
+  width: 100%;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.microphone {
+  background: #9100f8;
+  background: linear-gradient(
+    45deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  height: 21.875rem;
+  width: 21.875rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 6.25rem;
+  margin-bottom: 2.5rem;
+  border: 8px solid #2a186c;
+}
+.microphone img {
+  height: 12.5rem;
+  width: auto;
+}
+.microphone button {
+  position: absolute;
+  background: #00ff88;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: #000000;
+  box-shadow: 0 0 15px #00ff88;
+  top: 15px;
+  right: 20px;
+  font-weight: 600;
+  animation: button-color 1s infinite;
+}
+
+@keyframes button-color {
+  0% {
+    box-shadow: 0 0 15px #e5ff00;
+    background: #e5ff00;
+  }
+  50% {
+    box-shadow: 0 0 15px #e600ff;
+    background: #e600ff;
+  }
+  100% {
+    box-shadow: 0 0 15px #00ff88;
+    background: #00ff88;
+  }
+}
+
+.hero-content p {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+}
+.hero-content .button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.5rem;
+  margin-bottom: 6.25rem;
+}
+
+.hero-content .button-group .spotify {
+  background: #9100f8;
+  background: linear-gradient(
+    45deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  color: #ffffff;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hero-content .button-group .spotify:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(145, 0, 248, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(247, 233, 63, 1) 100%
+  );
+}
+.hero-content .button-group .message {
+  color: #00ff88;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 3px solid #00ff88;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.hero-content .button-group .message:hover {
+  color: #000000;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 3px solid #00ff88;
+  background: #00ff88;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: #38bdf8;
+  color: #0f172a;
+  box-shadow: 0 0 5px #38bdf8;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  box-shadow: 0 0 10px #38bdf8;
+}
