@@ -225,19 +225,16 @@ header {
   border: 3px solid #00ff88;
   background: #00ff88;
 }
-
-.btn {
-  padding: 0.5rem 1.5rem;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 1rem;
-  background: #38bdf8;
-  color: #0f172a;
-  box-shadow: 0 0 5px #38bdf8;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.about-the-Prodcust {
+  margin-top: 3.125rem;
 }
-.btn:hover {
-  box-shadow: 0 0 10px #38bdf8;
+.about-the-Prodcust p {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.about-the-Prodcust .first-para {
+  margin: 1.5rem 2rem;
 }
