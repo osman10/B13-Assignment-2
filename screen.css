@@ -18,6 +18,9 @@
   .hr {
     margin: 1rem 1rem;
   }
+  .why-choose-techwave h2 {
+    margin-top: 3rem;
+  }
 }
 
 @media screen and (max-width: 922px) {
@@ -47,11 +50,69 @@
     color: blueviolet;
   }
 
-.count-section {
-  justify-content: center;
+  .count-section {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+  }
+  .why-choose-techwave .parent {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .meet-the-host {
+  margin-top: 1.5rem;
+}
+.meet-the-host h2 {
+  margin-bottom: 1rem;
+}
+.host-info {
+  display: flex;
   flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
   align-items: center;
-  gap:3rem;
+
+  margin-top: 1rem;
+  padding: 1.5rem;
+
+}
+.host-content h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+.host-content p {
+  text-align: center;
+}
+.host-content .social-links {
+  width: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.host-content .social-links .host-img {
+  height: 200px;
+  width: 200px;
+}
+.host-content .social-links .social-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.host-content .social-links .social-links img{
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 
