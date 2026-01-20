@@ -128,6 +128,7 @@ header {
   margin-top: 6.25rem;
   margin-bottom: 2.5rem;
   border: 8px solid #2a186c;
+  padding: 10px;
 }
 .microphone img {
   height: 12.5rem;
@@ -227,6 +228,7 @@ header {
 }
 .about-the-Prodcust {
   margin-top: 3.125rem;
+  margin-bottom: 5rem;
 }
 .about-the-Prodcust p {
   color: #ffffff;
@@ -234,7 +236,34 @@ header {
   line-height: 1.8rem;
   text-align: center;
 }
-
 .about-the-Prodcust .first-para {
   margin: 1.5rem 2rem;
+}
+.hr {
+  border-top: 0.5px solid #412567;
+  margin: 2rem 2rem;
+}
+.count-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  margin: 5rem 0;
+}
+.count-section .count{
+  padding: 0 1rem;
+}
+.count-section h3 {
+  text-align: center;
+  color: #00ff88;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.count-section p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }

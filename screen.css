@@ -1,47 +1,58 @@
 @media screen and (max-width: 576px) {
-.hero-content .button-group{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-} 
-.hero-content .button-group button{
-  width: 100%;
+  .hero-content .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .hero-content .button-group button {
+    width: 100%;
+  }
+  .about-the-Prodcust {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .hr {
+    margin: 1rem 1rem;
+  }
 }
 
-}
 @media screen and (max-width: 922px) {
-.section {
-  padding: 0 10px;
-} 
+  .section {
+    padding: 0 10px;
+  }
 
-.navmenu {
-  display: none;
-  /* justify-content: space-between;
+  .navmenu {
+    display: none;
+    /* justify-content: space-between;
   align-items: center;
   gap: 2rem; */
-}
-.navmenu ul {
-  display: flex;
-  flex-direction: row;
-  /* gap: 2rem; */
-}
-.navmenu ul li a {
+  }
+  .navmenu ul {
+    display: flex;
+    flex-direction: row;
+    /* gap: 2rem; */
+  }
 
-}
-
-
-.header .subscribe {
-display: none;
-}
-.hamburger button{
-  display: block;
-}
-.hamburger button:hover{
+  .header .subscribe {
+    display: none;
+  }
+  .hamburger button {
+    display: block;
+  }
+  .hamburger button:hover {
     color: blueviolet;
+  }
+
+.count-section {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap:3rem;
 }
+
 
 }
